@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex LaunchX</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <style type="text/css">
+    .boton_personalizado{
+      text-decoration: none;
+      padding: 10px;
+      font-weight: 600;
+      font-size: 20px;
+      color: #ffffff;
+      background-color: #1883ba;
+      border-radius: 6px;
+      border: 2px solid #0016b0;
+    }
+  </style>
+  <style type="text/css">
+    .input_personalizado{
+     font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffdada;
+      border-radius: 6px;
+      border: 2px solid #000000;
+    }
+  </style>
+  <style type="text/css">
+    h1{
+     font-family: Arial, Helvetica, sans-serif;
+      color: #eeeeee;
+      
+     
+    }
+  </style>
+    <h1>Pokedex LaunchX</h1>
+    <input class="input_personalizado" type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+    <img src="img/pokeball.png " width="150px"><!-- alt="Pokemon" id="pokeImg" width="150px">-->
+    <button class="boton_personalizado"onclick="fetchPokemon()" >Info</button>
+  
+    
+  <div class="globo">
+   
+    </div>
+ 
+ 
+  <div class="gameboy" id="GameBoy">
+    <div class="ledRojo">
+    </div>
+   
+    <div class="ledYellow">
+    </div>
+    <div class="ledGreen">
+    </div>
+
+  
+    <div class="screen-area">
+      
+      <div class="power">
+        <div class="indicator">
+          <div class="camera"></div>
+          <div class="led"></div>
+          <div class="reflex"></div>
+         
+                  </div>
+        
+      </div>
+      <img src="img/pokeball.png" alt="Pokemon" id="pokeImg" width="180px">
+    
+     
+     
+    </div>
+    
+    <div class="pokedex">Pokedex</div>
+    
+    <div class="controls">
+      <div class="dpad">
+        <div class="up"><i class="fa fa-caret-up"></i></div>
+        <div class="right"><i class="fa fa-caret-right"></i></div>
+        <div class="down"><i class="fa fa-caret-down"></i></div>
+        <div class="left"><i class="fa fa-caret-left"></i></div>
+        <div class="middle"></div>
+      </div>
+      <div class="a-b">
+        <div class="b"></div>
+        <div class="buttomGreen"></div>
+      </div>
+    </div>
+    
+    <div class="start-select">
+      <div class="select"></div>
+      <div class="start"></div>
+    </div>
+    
+    <div class="speaker">
+      <div class="dot placeholder"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot placeholder"></div>
+      
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+  
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+  
+      <div class="dot placeholder"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot closed"></div>
+      <div class="dot open"></div>
+      <div class="dot placeholder"></div>
+    </div>
+
+    
+  </div>
+  
+  
+</body>
+<footer>
+  <script src="javascript/pokedex.js"></script>
+</footer>
+</html>
